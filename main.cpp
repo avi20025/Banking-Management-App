@@ -1,10 +1,3 @@
-/*
-Program Name: Bank Account
-Date:         2022-4-12
-Name:         Avinash Vadivelu
-Module Purpose: This program manages several different kinds of bank accounts and respond to numerous actions/transactions stated in the text files.
-                It then displays the state of each type of bank account after reading and implementing the transactions.
-*/
 #include <iostream>
 #include <fstream>
 #include <sstream>
