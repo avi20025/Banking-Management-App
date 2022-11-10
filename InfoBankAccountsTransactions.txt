@@ -1,10 +1,3 @@
-s847300,deposit,1200
-s847300,withdraw,120
-s847300,interest
-c974423,deposit,1000
-c974423,check,512.39
-s742100,deposit,1500.63
-s742100,withdraw,500.63
 c473892,deposit,20000
 c473892,check,857.99
 i555559,deposit,23000
