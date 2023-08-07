@@ -127,7 +127,7 @@ void ReadInFromBankAccountsFile
     while(getline(inFile, lineFileBuffer))
     ++accountsCountUns;
 
-    bankAccountsAry = new BankAccountsClass*[accountsCountUns]; //creates dynamic array for information from hot dog stands 
+    bankAccountsAry = new BankAccountsClass*[accountsCountUns];
 
     inFile.clear(); inFile.seekg(0, ios::beg);
 
@@ -135,7 +135,7 @@ void ReadInFromBankAccountsFile
             "========= " << endl << endl;
 
     
-    for(unsigned x = 0; x < accountsCountUns; x++) //loops through dynamic array and reads each part of the hot dog stands' characteristics
+    for(unsigned x = 0; x < accountsCountUns; x++) 
     {
         getline(inFile, lineFileBuffer);
         istringstream isStringStream(lineFileBuffer);
@@ -190,7 +190,7 @@ void ReadInFromTransactionsFile
     while(getline(inFile, lineFileBuffer))
     ++transactionsCountUns;
 
-    transactionsAry = new TransactionsClass[transactionsCountUns]; //creates dynamic array for information from hot dog stands 
+    transactionsAry = new TransactionsClass[transactionsCountUns]; 
 
     inFile.clear(); inFile.seekg(0, ios::beg);
 
@@ -198,7 +198,7 @@ void ReadInFromTransactionsFile
             "============= " << endl << endl;
 
     
-    for(unsigned x = 0; x < transactionsCountUns; x++) //loops through dynamic array and reads each part of the hot dog stands' characteristics
+    for(unsigned x = 0; x < transactionsCountUns; x++) 
     {
         getline(inFile, lineFileBuffer);
         istringstream isStringStream(lineFileBuffer);
